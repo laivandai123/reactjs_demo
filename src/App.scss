@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "sans-serif";
+}
+.app-container {
+    .header-container {
+        .navbar-nav {
+            .nav-link {
+                &.active {
+                    color: red;
+                }
+            }
+        }
+    }
+}
