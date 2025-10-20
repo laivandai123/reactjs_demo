@@ -25,12 +25,14 @@ const Header = () => {
                         </NavLink>
                     </Nav>
                     <Nav>
-                        <NavDropdown title="Setting" id="basic-nav-dropdown">
+                        <button className="btn-login">Logn In</button>
+                        <button className="btn-sigup">Sign Up</button>
+                        {/* <NavDropdown title="Setting" id="basic-nav-dropdown">
                             <NavDropdown.Item>Log In</NavDropdown.Item>
                             <NavDropdown.Item>Log Out</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item>Profile</NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
